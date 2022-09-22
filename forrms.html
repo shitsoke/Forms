@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAC CLAN</title>
+    <style>
+        fieldset {background-color: #fce5cd;}
+        legend {background-color: #f4cccc;}
+        .left {
+            
+            padding: 0px;
+            display: inline-block;
+           height: 0px;
+           width: 540px;
+        }
+        .right {
+            
+            padding: 0px;
+            display: inline-block;
+           height: 1000px;
+           width: 510px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <h2>CLAN REGISTRATION</h2>
+    <div class="left">
+
+    <form action="mailto:info@cc.pamakevin774@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend><b><p>Member Information</p></b></legend>
+        <table>
+        <tr>
+        
+        <td><label for="fname">Name*</label></td>
+        <td><input type="text" id="name" name="name" placeholder="first and last name"></td>
+        </tr>
+    
+
+        <tr>
+        
+        <td><label for="Sadd">Street Address :</label></td>
+        <td><input type="text" id="Sadd" name="S address"></td>
+        </tr>
+        
+         
+        <tr>
+        
+            <td><label>City :</label></td>
+            <td><input type="text" id="City" name="City"></td>
+        </tr>
+    
+
+        <tr>
+        
+            <td><label>State :</label></td>
+            <td><input type="text" id="State" name="State"></td>
+        </tr>
+        
+
+        <tr>
+        
+            <td><label>Postal Code :</label></td>
+            <td><input type="text" id="postal code" name="postal code"></td>
+        </tr>
+        
+
+        <tr>
+        
+            <td><label>Phone Number</label></td>
+            <td><select>
+                <option>+63</option>
+                <option>+64</option>
+                <option>+65</option>
+                <option>+66</option>
+                <option>+67</option>
+            </select>
+            <input type="phone" placeholder="956*******" id="phone" name="phone"></td>
+        </tr>
+        
+
+        <tr>
+        
+            <td><label>Email* :</label></td>
+            <td><input type="text" id="mail" name="mail"></td>
+        </tr>
+        
+
+        <tr>
+        
+            <td><label>Where did you hear about us? :</label></td>
+            <td><input type="text" id="heard" name="heard"></td>
+        </tr>
+        
+        <tr>
+            <td><label>What's your favorite dish? :</label></td>
+            <td><input type="text" id="fav dish" name="fav dish"></td>
+        </tr>
+
+        <tr>
+            <td><label>How many times do you eat per day? :</label></td>
+            <td><input type="number" id="quantity" name="quantity"></td>
+        </tr>
+    
+      </table>
+
+      <input type="checkbox">
+        <label>add me to your mailing list for announcements</label>
+
+        <table>
+            <tr>
+                <td>
+                    <input type="Submit" value="Submit" name="">
+                    <input type="Reset">
+                </td>
+            </tr>
+        </table>
+
+        </fieldset>
+    </form>
+</div>
+
+
+    <div class="right">
+        <form action="mailto:info@cc.pamakevin774@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend><b><p>Share your experience in Vac Clan</p></b></legend>
+                <table>
+
+                    <tr>
+                        <td>Date of Membership :</td>
+                        <td><input type="date" id="membership date"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Membership Type :</td>
+                        <td><input list="Membership types" id="membership type"></td>
+                        <td><Datalist id="Membership types">
+                            <option value="Normal">
+                            <option value="Premium">
+                            <option value="VIP">
+                        </Datalist></td>
+                    </tr>
+
+                    <tr>
+                        <td>The members are friendly? :</td>
+                        <td>
+                            <input type="radio" id="The members are friendly?" name="The members are friendly?">Yes
+                            <input type="radio" id="The members are friendly?" name="The members are friendly?">No
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Are you treated well by the members? :</td>
+                        <td>
+                            <input type="radio" id="treat" name="Are you treated well by the members?">Yes
+                            <input type="radio" id="treat" name="Are you treated well by the members?">No
+                        </td> 
+                    </tr>
+
+                    <tr>
+                        <td>Are you happy in the clan? :</td>
+                        <td>
+                            <input type="radio" id="happiness" name="Are you happy in the clan?">Yes
+                            <input type="radio" id="happiness" name="Are you happy in the clan?">No
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Please rate the clan (0=lowest 100= highest)</td>
+                        <td>
+                            <input type="range" id="rate" name="rate" min="0" max="100">
+                        </td>
+                    </tr>
+
+                    
+                </table>
+
+                Tell us more aboout your experience!
+                <p><textarea cols="20" rows="5" id="Tell us more!"></textarea></p>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
